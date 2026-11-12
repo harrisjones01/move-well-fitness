@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /search.html
+
+# Ad crawlers (required for AdSense to verify inventory)
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+Sitemap: https://movewell.fit/sitemap.xml
